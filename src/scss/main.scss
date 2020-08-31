@@ -1,0 +1,41 @@
+// This is where you can import other stylesheets or write your scss code
+
+$font-family-base:'Love Ya Like A Sister', cursive;
+$primary: rgb(130, 11, 199);
+$secondary: rgb(199, 11, 143);
+$enable-rounded:false;
+$sizes: (25:15%);
+
+
+header{
+
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:absoulte  ;
+    width: 100%;
+    height: 150vh;
+}
+
+.postion{
+
+    position: relative;
+    text-align: center;
+ 
+}
+
+.burger {  
+    width: 40px;
+}
+
+.random{
+    margin: 50px 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
